@@ -1,0 +1,65 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 200px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .user-information {
+  margin-left: 20px;
+}
+
+header .social-link {
+  margin-left: 20px;
+}
+
+.avatar img {
+  width: 100px;
+  margin-left: 20px;
+}
+
+main h1 {
+  text-align: center;
+}
+
+main h2 {
+  text-align: center;
+}
+
+main h3 {
+  text-align: center;
+}
+
+.university-pics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.university-pics p {
+  text-align: center;
+}
+
+.university-pics img {
+  width: auto;
+  height: 500px;
+  margin-top: 30px;
+}
+
+footer {
+  background-color: cadetblue;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
