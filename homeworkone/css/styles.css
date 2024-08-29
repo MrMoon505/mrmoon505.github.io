@@ -19,6 +19,8 @@ header img {
 
 header h1 {
     text-align: center;
+    font-family: inherit;
+    color: black;
 }
 
 nav {
@@ -57,7 +59,14 @@ ul li a {
 }
 
 main {
-    color: black;    
+    background-color: #fff;
+    font-size: 15px;
+    color: black;
+}
+
+main p, a {
+    color: black;
+    line-height: 0cm;
 }
 
 footer {
