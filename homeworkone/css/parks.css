@@ -1,0 +1,9 @@
+main div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main div img {
+    margin: 5px;
+}
