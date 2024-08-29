@@ -1,1 +1,1 @@
-hi
+This folder contains css file.
