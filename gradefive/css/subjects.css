@@ -1,0 +1,39 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: #F5F5F5;
+    padding: 5px 15px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+}
+
+.container .lession-link {
+    display: block;
+    padding: 10px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.container .lession-link:hover {
+    background-color: #227B94;
+    color: white;
+}
+
+.container p {
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+}
